@@ -1,7 +1,7 @@
 pipeline {
     environment {
         registry = "darkavenger00/javalab5"
-        DOCKERHUB_CREDENTIALS = credentials('docker-login-pwd')
+        DOCKERHUB_CREDENTIALS = credentials(1)
     }
    agent none
     options {
